@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Tech Educators Demo Chatbot</title>
+</head>
+<body>
+    <div class="chat-icon" role="button" aria-label="Open chat" tabindex="0">💬</div>
+
+    <!-- Chat container -->
+    <div class="chat-container" aria-live="polite" aria-label="Tech Educators Chatbot" hidden>
+    <div class="chat-header">Chat with Tech Educators Bot</div>
+    <div class="chat-box">
+    <div class="chat-messages" role="log" aria-live="polite" aria-relevant="additions"></div>
+    <input
+        type="text"
+        class="chat-input"
+        placeholder="Ask about courses, start dates..."
+        aria-label="Type your message"
+        autocomplete="off"
+    />
+    <button class="chat-send" aria-label="Send message">Send message</button>
+    </div>
+    </div>
+</body>
+</html>
+
+
